@@ -1,0 +1,17 @@
+<svg 
+    width="600"
+    height="400"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+
+    <!-- The cards have a natural width of 169.075 and a height of 244.640. It
+         center is located at (+98.0375, +122.320). -->
+    <!-- The original back color was #0062ff. The color of the back card can
+         be changed by setting the fill on the USE-element. -->
+
+    <use xlink:href="svg-cards-indented.svg#back" x="150" y="10" fill="red"/>
+    <use xlink:href="svg-cards-indented.svg#1_heart" x="0" y="0"/>
+    <use xlink:href="svg-cards-indented.svg#black_joker" x="100" y="100"/>
+    <use xlink:href="svg-cards-indented.svg#10_spade" x="200" y="200" transform="rotate(45,198.0375,122.320)scale(0.5)"/>
+</svg>
