@@ -1,7 +1,7 @@
 SVG-cards
 =========
 
-This is a fork of [SVG-cards 2.0.2](http://svg-cards.sourceforge.net/), which
+This is a fork of [SVG-cards 2.0.1](http://svg-cards.sourceforge.net/), which
 was created by [David Bellot](http://david.bellot.free.fr/). He writes in the
 README of the original package:
 
