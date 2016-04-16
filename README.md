@@ -18,22 +18,22 @@ README of the original package:
 > interface.
 
 I agree with David that these cards are beautiful! I am grateful for his work
-and publishing them under an open source licence. However, while playing
+and that he published them under an open source licence. However, while playing
 around with the SVG file containing the cards, I found that using the cards in
 SVG was not as straightforward as I would have liked. For example, I expected
 the following line,
 
     <use xlink:href="svg-cards.svg#red_joker" x=40" y="12" />
 
-to put the red joker card with its top-left corner at (40, 12). It does not
-however, as it takes into account the place of the red joker in the SVG file:
-the card top-left corner shows up at (207.575, 750.55).
+to put the red joker card with its top-left corner at (40, 12). It does not,
+as it takes into account the place of the red joker in the SVG file: the card
+top-left corner shows up at (207.575, 750.55).
 
 In this fork I translated all cards to set their top-left corner at the origin
 (0,0). After this change, the above USE element works as expected: it places
 the red joker card's top-left corner at (40, 12).
 
-For transforming the cards after USEing them, it is good to know that the
+For transforming the cards after using them, it is good to know that the
 cards have the following natural dimensions:
 
 - width: 169.075
@@ -41,10 +41,12 @@ cards have the following natural dimensions:
 - center: (+98.0375, +122.320)
 
 Furthermore, to enable to create different stocks of cards, I set the color on
-the back card to `inherit` instead of #0062ff. The color of the back card can
-be changed by setting the fill on the USE-element.
+the back card to `inherit` instead of `#0062ff`. The color of the back card can
+be changed by setting the fill on the USE-element. For example:
 
-The use of the cards are demonstrated in the example_use.svg file.
+    <use xlink:href="svg-cards-indented.svg#back" x="150" y="10" fill="red"/>
+
+The use of the cards are demonstrated in the `example_use.svg` file.
 
 The naming of the cards is kept as in the original (citing the original
 README): 
@@ -60,7 +62,7 @@ README):
 > 
 > and so on...
 
-I've also added a nicely formatted SVG file, svg-cards-indented.svg, for
-easier inspection in a text editor.
+I have also added a nicely formatted SVG file, `svg-cards-indented.svg`, which
+makes the SVG file easier to inspect using a text editor.
 
 Finally, the licence has been updated to LGPLv3.
