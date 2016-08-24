@@ -65,4 +65,7 @@ README):
 I have also added a nicely formatted SVG file, `svg-cards-indented.svg`, which
 makes the SVG file easier to inspect using a text editor.
 
+To automatically convert these SVG files to PNG I developed a separate
+project: [svg-cards-to-png](https://github.com/htdebeer/svg-cards-to-png).
+
 Finally, the licence has been updated to LGPLv3.
