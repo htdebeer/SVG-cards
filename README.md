@@ -47,7 +47,7 @@ be changed by setting the fill on the USE-element. For example:
     <use xlink:href="svg-cards-indented.svg#back" x="150" y="10" fill="red"/>
 
 The use of the cards are demonstrated in the
-`[example_use.svg](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.svg)` file.
+[`example_use.svg`](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.svg) file.
 
 ![Example use of SVG
 Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
