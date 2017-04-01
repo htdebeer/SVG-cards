@@ -1,6 +1,9 @@
 SVG-cards
 =========
 
+![Example use of SVG
+Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
+
 This is a fork of [SVG-cards 2.0.1](http://svg-cards.sourceforge.net/), which
 was created by [David Bellot](http://david.bellot.free.fr/). He writes in the
 README of the original package:
@@ -48,9 +51,6 @@ be changed by setting the fill on the USE-element. For example:
 
 The use of the cards are demonstrated in the
 [`example_use.svg`](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.svg) file.
-
-![Example use of SVG
-Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
 
 The naming of the cards is kept as in the original (citing the original
 README): 
