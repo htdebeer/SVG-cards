@@ -2,12 +2,12 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
 height="244.640" width="169.075" viewBox="0 0 169.075 244.640">
-  <!-- SVG-cards 3.0.0                                                            -->
+  <!-- SVG-cards 3.0.1                                                            -->
   <!-- This set of SVG files is a complete cards game with figures, numbers       -->
   <!--    and backs of cards completely designed in SVG.                          -->
   <!--                                                                            -->
   <!--    Copyright (C) 2005 David Bellot                                         -->
-  <!--    Copyright (C) 2016 Huub de Beer                                         -->
+  <!--    Copyright (C) 2016, 2017 Huub de Beer                                   -->
   <!--                                                                            -->
   <!--    This library is free software; you can redistribute it and/or           -->
   <!--    modify it under the terms of the GNU Lesser General Public              -->
@@ -4292,6 +4292,21 @@ height="244.640" width="169.075" viewBox="0 0 169.075 244.640">
       </g>
       <use transform="translate(0,207.189)" xlink:href="#g_lace2"
        x="0" y="0" width="100%" height="100%" />
+    </g>
+    <g id="card-base" transform="translate(1.25, 236.52)">
+        <use xlink:href="#base" x="0" y="0" width="100%" height="100%" />
+    </g>
+    <g id="suit-club" transform="translate(7.71, 7.94)rotate(180)">
+        <use xlink:href="#club" x="0" y="0" width="100%" height="100%" />
+    </g>
+    <g id="suit-spade" transform="translate(7.71, 7.94)rotate(180)">
+        <use xlink:href="#spade" x="0" y="0" width="100%" height="100%" />
+    </g>
+    <g id="suit-heart" transform="translate(7.71, 7.94)rotate(180)">
+        <use xlink:href="#heart" x="0" y="0" width="100%" height="100%" />
+    </g>
+    <g id="suit-diamond" transform="translate(7.71, 7.94)rotate(180)">
+        <use xlink:href="#diamond" x="0" y="0" width="100%" height="100%" />
     </g>
   </defs>
 </svg>

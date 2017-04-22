@@ -1,3 +1,11 @@
+April 22, 2017:
+==============
+
+* SVG-cards 3.0.1
+        - NEW:
+	        . added 'base-card', a card's circumference, to the USEable shapes
+                . added the four suits to the USEable shapes: 'suit-club', 'suit-heart', 'suit-spade', 'suit-diamond'
+
 April 9, 2016:
 =============
 

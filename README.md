@@ -66,6 +66,23 @@ README):
 > 
 > and so on...
 
+When developing applications with these cards, I had also need of the card
+circumference and the four suits. To that end I introduced the following
+shapes you can USE:
+
+- *card-base*, with the same dimensions as a card
+- *suit-club*
+- *suit-heart*
+- *suit-diamond*
+- *suit-spade*
+
+The suits have the following dimensions:
+
+- width: 15.42
+- height: 15.88
+- center: (7.71, 7.94)
+
+
 I have also added a nicely formatted SVG file, `svg-cards-indented.svg`, which
 makes the SVG file easier to inspect using a text editor.
 

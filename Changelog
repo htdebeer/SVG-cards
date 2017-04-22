@@ -1,3 +1,7 @@
+2017-04-22 Huub de Beer <Huub@heerdebeer.org>
+	* added 'base-card', a card's circumference, to the USEable shapes
+	* added the four suits to the USEable shapes: 'suit-club', 'suit-heart', 'suit-spade', 'suit-diamond'
+
 2016-04-16 Huub de Beer <Huub@heerdebeer.org>
 	* translated the cards, setting their top-left corner at (0,0)
 	* the color of the back card can be set by using a fill attribute
