@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
 height="244.640" width="169.075" viewBox="0 0 169.075 244.640">
-  <!-- SVG-cards 3.0.1                                                            -->
+  <!-- SVG-cards 3.0.2                                                            -->
   <!-- This set of SVG files is a complete cards game with figures, numbers       -->
   <!--    and backs of cards completely designed in SVG.                          -->
   <!--                                                                            -->
@@ -4292,6 +4292,30 @@ height="244.640" width="169.075" viewBox="0 0 169.075 244.640">
       </g>
       <use transform="translate(0,207.189)" xlink:href="#g_lace2"
        x="0" y="0" width="100%" height="100%" />
+    </g>
+    <g id="alternate-back" transform="translate(-333.89999,-736.02999)">
+      <use xlink:href="#base" x="335.14999" y="972.54999"
+       width="100%" height="100%" />
+      <rect style="fill:inherit;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.71613282;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+      width="131.9648" height="177.42918" x="358.44342"
+      y="761.04138"
+      transform="matrix(1.157448,0,0,1.291938,-72.77354,-239.377)"
+      ry="2.7421434" rx="2.7421434" id="rect3250" />
+      <rect width="131.9648" height="177.42918" rx="2.9805906"
+      ry="2.8864667" x="358.44342" y="761.04138"
+      transform="matrix(1.064852,0,0,1.227341,-33.46908,-184.4809)"
+      style="fill:inherit;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.31317055;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+      id="rect3252" />
+      <rect width="131.9648" height="177.42918" rx="0" ry="0"
+      x="358.44342" y="761.04138"
+      transform="matrix(0.901291,0,0,1.107675,35.9519,-82.79633)"
+      style="fill:inherit;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.25206935;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+      id="rect3254" />
+      <rect width="131.9648" height="177.42918" rx="0" ry="0"
+      x="358.44342" y="761.04138"
+      transform="matrix(0.829188,0,0,1.052291,66.55439,-35.73366)"
+      style="fill:inherit;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.33928394;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+      id="rect3256" />
     </g>
     <g id="card-base" transform="translate(1.25, 236.52)">
         <use xlink:href="#base" x="0" y="0" width="100%" height="100%" />

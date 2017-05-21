@@ -82,9 +82,21 @@ The suits have the following dimensions:
 - height: 15.88
 - center: (7.71, 7.94)
 
+A while later I also discovered that the back card is too complex to be
+rendered swiftly in my web browsers. When rendering a deck of 52 cards facing
+down, it tool almost 2 seconds to render about 50000 elements in the DOM. To
+overcome these issues, I created an alternative back by removing all the
+frills from the original
+one. You can USE is via:
+
+- *alternate-back*
+
 
 I have also added a nicely formatted SVG file, `svg-cards-indented.svg`, which
-makes the SVG file easier to inspect using a text editor.
+makes the SVG file easier to inspect using a text editor. Converting from
+indented to unindented version goes via
+[xmllint](http://xmlsoft.org/xmllint.html):  `xmllint --noblanks
+svg-cards-indented.svg > svg-cards.svg`
 
 To automatically convert these SVG files to PNG I developed a separate
 project: [svg-cards-to-png](https://github.com/htdebeer/svg-cards-to-png).

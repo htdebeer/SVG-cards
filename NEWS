@@ -1,3 +1,10 @@
+May 21, 2017:
+============
+
+* SVG-cards 3.0.2
+        - NEW:
+                . added 'alternate-back' to the USEable shapes because the original back has too many elements to render quickly.
+
 April 22, 2017:
 ==============
 

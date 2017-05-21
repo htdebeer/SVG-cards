@@ -1,3 +1,6 @@
+2017-05-21 Huub de Beer <Huub@heerdebeer.org>
+	* added 'alternate-back' to the USEable shapes because the original back has too many elements to render quickly.
+
 2017-04-22 Huub de Beer <Huub@heerdebeer.org>
 	* added 'base-card', a card's circumference, to the USEable shapes
 	* added the four suits to the USEable shapes: 'suit-club', 'suit-heart', 'suit-spade', 'suit-diamond'
