@@ -91,7 +91,6 @@ one. You can USE is via:
 
 - *alternate-back*
 
-
 I have also added a nicely formatted SVG file, `svg-cards-indented.svg`, which
 makes the SVG file easier to inspect using a text editor. Converting from
 indented to unindented version goes via
@@ -99,4 +98,9 @@ indented to unindented version goes via
 svg-cards-indented.svg > svg-cards.svg`
 
 To automatically convert these SVG files to PNG I developed a separate
-project: [svg-cards-to-png](https://github.com/htdebeer/svg-cards-to-png).
+project: [svg-cards-to-png](https://github.com/htdebeer/svg-cards-to-png). For
+convenience, PNG files are included in this repository in the `png`
+subdirectory. There are two directories, `png/1x` and `png/2x`, with PNG
+files of the SVG cards with, respectively, their natural dimensions and twice
+their natural dimensions. Furthermore, 16 different colored back cards are
+included as well.
