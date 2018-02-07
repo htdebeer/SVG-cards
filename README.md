@@ -84,7 +84,7 @@ The suits have the following dimensions:
 
 A while later I also discovered that the back card is too complex to be
 rendered swiftly in my web browsers. When rendering a deck of 52 cards facing
-down, it tool almost 2 seconds to render about 50000 elements in the DOM. To
+down, it took almost 2 seconds to render about 50000 elements in the DOM. To
 overcome these issues, I created an alternative back by removing all the
 frills from the original
 one. You can USE is via:
