@@ -1,0 +1,27 @@
+{
+  "name": "svg-cards",
+  "version": "2.0.2",
+  "description": "npm installable version of SVG-cards by 1-David Ballot 2- Hub de Beer 3- desphilboy",
+  "main": "png",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desphilboy/SVG-cards.git"
+  },
+  "keywords": [
+    "svg",
+    "cards",
+    "game",
+    "cards",
+    "web",
+    "cards"
+  ],
+  "author": "1-David Ballot 2- Hub de Beer 3- Desphilboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htdebeer/SVG-cards/issues"
+  },
+  "homepage": "https://github.com/htdebeer/SVG-cards#readme"
+}

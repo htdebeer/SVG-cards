@@ -1,5 +1,12 @@
-SVG-cards
+SVG-cards npm installable version
 =========
+
+This is a small change to original work of SVG cards to make it npm usable.
+you can install the project as an npm dependency in npm projects using this command:
+
+$> npm install --save svg-cards
+
+the rest is the original work and here is the readme:
 
 ![Example use of SVG
 Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
@@ -14,7 +21,7 @@ README of the original package:
 > provide the code source and the LGPL license (see the COPYING file).
 > Although this is a free software, the license is the LGPL so you can use
 > this set of cards even in a non-free software.
-> 
+>
 > The kings, queens and jacks are based on the french representation, because
 > I find them beautiful. You can access to each either by rendering the file
 > into a pixmap and clipping each card or by using their name with a DOM
@@ -53,17 +60,17 @@ The use of the cards are demonstrated in the
 [`example_use.svg`](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.svg) file.
 
 The naming of the cards is kept as in the original (citing the original
-README): 
+README):
 
 > Names are the following :
-> 
+>
 > black_joker red_joker back {king,queen,jack}_{club,diamond,heart,spade}
 > {1,2,3,4,5,6,7,8,9,10}_{club,diamond,heart,spade}
-> 
+>
 > Examples :
 > - the ace of club is 1_club
 > - the queen of diamond is queen_diamond
-> 
+>
 > and so on...
 
 When developing applications with these cards, I had also need of the card
