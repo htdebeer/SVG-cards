@@ -1,14 +1,12 @@
-SVG-cards
+SVG-cards npm installable version
 =========
 
-A set of playing cards in SVG, now also with a rendering in PNG and
-installable via NPM.
+This is a small change to original work of SVG cards to make it npm usable.
+you can install the project as an npm dependency in npm projects using this command:
 
-*   Version: 2.0.2
-*   License: LGPL-2.1
-*   Install via NPM: `npm install --save svg-cards` or just download the
-    [SVG](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/svg-cards.svg)
-    file.
+$> npm install --save svg-cards
+
+the rest is the original work and here is the readme:
 
 ![Example use of SVG
 Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
@@ -113,8 +111,3 @@ subdirectory. There are two directories, `png/1x` and `png/2x`, with PNG
 files of the SVG cards with, respectively, their natural dimensions and twice
 their natural dimensions. Furthermore, 16 different colored back cards are
 included as well.
-
-[desphilboy](https://github.com/desphilboy) has made this project into a
-[NPM](https://www.npmjs.com/) package to make it easier for web developers to
-use it in their projects. Now it can be installed and used like other
-dependencies: `install --save svg-cards`.
