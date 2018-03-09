@@ -1,6 +1,15 @@
 SVG-cards
 =========
 
+A set of playing cards in SVG, now also with a rendering in PNG and
+installable via NPM.
+
+*   Version: 2.0.2
+*   License: LGPL-2.1
+*   Install via NPM: `npm install --save svg-cards` or just download the
+    [SVG](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/svg-cards.svg)
+    file.
+
 ![Example use of SVG
 Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
 
@@ -14,7 +23,7 @@ README of the original package:
 > provide the code source and the LGPL license (see the COPYING file).
 > Although this is a free software, the license is the LGPL so you can use
 > this set of cards even in a non-free software.
-> 
+>
 > The kings, queens and jacks are based on the french representation, because
 > I find them beautiful. You can access to each either by rendering the file
 > into a pixmap and clipping each card or by using their name with a DOM
@@ -53,17 +62,17 @@ The use of the cards are demonstrated in the
 [`example_use.svg`](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.svg) file.
 
 The naming of the cards is kept as in the original (citing the original
-README): 
+README):
 
 > Names are the following :
-> 
+>
 > black_joker red_joker back {king,queen,jack}_{club,diamond,heart,spade}
 > {1,2,3,4,5,6,7,8,9,10}_{club,diamond,heart,spade}
-> 
+>
 > Examples :
 > - the ace of club is 1_club
 > - the queen of diamond is queen_diamond
-> 
+>
 > and so on...
 
 When developing applications with these cards, I had also need of the card
@@ -104,3 +113,8 @@ subdirectory. There are two directories, `png/1x` and `png/2x`, with PNG
 files of the SVG cards with, respectively, their natural dimensions and twice
 their natural dimensions. Furthermore, 16 different colored back cards are
 included as well.
+
+[desphilboy](https://github.com/desphilboy) has made this project into a
+[NPM](https://www.npmjs.com/) package to make it easier for web developers to
+use it in their projects. Now it can be installed and used like other
+dependencies: `install --save svg-cards`.
