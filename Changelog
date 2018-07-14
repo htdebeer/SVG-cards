@@ -1,3 +1,6 @@
+2018-07-14 Thomas Linard
+	* made SVG files complient with SVG standard.
+
 2017-05-21 Huub de Beer <Huub@heerdebeer.org>
 	* added 'alternate-back' to the USEable shapes because the original back has too many elements to render quickly.
 
