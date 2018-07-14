@@ -1,4 +1,11 @@
-Fri 9, 2018:
+Jul 14, 2018:
+=============
+
+* SVG-cards 4.0
+        - NEW:
+                . Thomas Linard made the SVG files complient with the SVG standard. Some SVG element's identifiers had to be renamed to ensure uniqueness and complience.
+
+Mar 9, 2018:
 ============
 
 * SVG-cards 3.0.3

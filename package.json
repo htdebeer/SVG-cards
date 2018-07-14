@@ -1,6 +1,6 @@
 {
   "name": "svg-cards",
-  "version": "3.0.3",
+  "version": "4.0",
   "description": "A set of playing cards in SVG (now also with a rendering in PNG and installable via NPM)",
   "main": "png",
   "scripts": {
@@ -27,6 +27,9 @@
       }, {
         "name": "desphilboy",
         "url": "https://github.com/desphilboy"
+      }, {
+      "name": "Thomas Linard",
+      "url": "https://github.com/thlinard"
       }],
   "license": "LGPL-2.1",
   "bugs": {

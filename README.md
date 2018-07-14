@@ -4,7 +4,7 @@ SVG-cards
 A set of playing cards in SVG, now also with a rendering in PNG and
 installable via NPM.
 
-*   Version: 3.0.3
+*   Version: 4.0
 *   License: LGPL-2.1
 *   Install via NPM: `npm install --save svg-cards` or just download the
 [SVG](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/svg-cards.svg)
@@ -119,3 +119,7 @@ included as well.
 [NPM](https://www.npmjs.com/) package to make it easier for web developers to
 use it in their projects. Now it can be installed and used like other
 dependencies: `install --save svg-cards`.
+
+In July 2018, [Thomas Linard](https://github.com/thlinard) improved the SVG
+files by making them complient with the [SVG
+specification](https://www.w3.org/TR/SVG/).
