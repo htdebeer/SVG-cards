@@ -7,8 +7,8 @@ installable via NPM.
 *   Version: 3.0.3
 *   License: LGPL-2.1
 *   Install via NPM: `npm install --save svg-cards` or just download the
-    [SVG](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/svg-cards.svg)
-    file.
+[SVG](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/svg-cards.svg)
+file.
 
 ![Example use of SVG
 Cards](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.png)
@@ -24,18 +24,18 @@ README of the original package:
 > Although this is a free software, the license is the LGPL so you can use
 > this set of cards even in a non-free software.
 >
-> The kings, queens and jacks are based on the french representation, because
+> The kings, queens and jacks are based on the French representation, because
 > I find them beautiful. You can access to each either by rendering the file
 > into a pixmap and clipping each card or by using their name with a DOM
 > interface.
 
 I agree with David that these cards are beautiful! I am grateful for his work
-and that he published them under an open source licence. However, while playing
+and that he published them under an open source license. However, while playing
 around with the SVG file containing the cards, I found that using the cards in
 SVG was not as straightforward as I would have liked. For example, I expected
 the following line,
 
-    <use xlink:href="svg-cards.svg#red_joker" x=40" y="12" />
+    <use xlink:href="svg-cards.svg#red_joker" x="40" y="12"/>
 
 to put the red joker card with its top-left corner at (40, 12). It does not,
 as it takes into account the place of the red joker in the SVG file: the card
@@ -58,22 +58,23 @@ be changed by setting the fill on the USE-element. For example:
 
     <use xlink:href="svg-cards-indented.svg#back" x="150" y="10" fill="red"/>
 
-The use of the cards are demonstrated in the
+The use of the cards is demonstrated in the
 [`example_use.svg`](https://raw.githubusercontent.com/htdebeer/SVG-cards/master/example_use.svg) file.
 
-The naming of the cards is kept as in the original (citing the original
-README):
+The naming of the cards is *not* kept as in the original (because of SVG standard compliance):
 
-> Names are the following :
->
-> black_joker red_joker back {king,queen,jack}_{club,diamond,heart,spade}
-> {1,2,3,4,5,6,7,8,9,10}_{club,diamond,heart,spade}
->
-> Examples :
-> - the ace of club is 1_club
-> - the queen of diamond is queen_diamond
->
-> and so on...
+Names are the following:
+
+joker_black joker_red
+back
+{club,diamond,heart,spade}_{king,queen,jack}
+{club,diamond,heart,spade}_{1,2,3,4,5,6,7,8,9,10}
+
+Examples:
+- the ace of club is club_1
+- the queen of diamond is diamond_queen
+
+and so on…
 
 When developing applications with these cards, I had also need of the card
 circumference and the four suits. To that end I introduced the following
@@ -93,7 +94,7 @@ The suits have the following dimensions:
 
 A while later I also discovered that the back card is too complex to be
 rendered swiftly in my web browsers. When rendering a deck of 52 cards facing
-down, it took almost 2 seconds to render about 50000 elements in the DOM. To
+down, it took almost 2 seconds to render about 50,000 elements in the DOM. To
 overcome these issues, I created an alternative back by removing all the
 frills from the original
 one. You can USE is via:
@@ -103,7 +104,7 @@ one. You can USE is via:
 I have also added a nicely formatted SVG file, `svg-cards-indented.svg`, which
 makes the SVG file easier to inspect using a text editor. Converting from
 indented to unindented version goes via
-[xmllint](http://xmlsoft.org/xmllint.html):  `xmllint --noblanks
+[xmllint](http://xmlsoft.org/xmllint.html): `xmllint --noblanks
 svg-cards-indented.svg > svg-cards.svg`
 
 To automatically convert these SVG files to PNG I developed a separate
@@ -114,7 +115,7 @@ files of the SVG cards with, respectively, their natural dimensions and twice
 their natural dimensions. Furthermore, 16 different colored back cards are
 included as well.
 
-[desphilboy](https://github.com/desphilboy) has made this project into a
+[desphilboy](https://github.com/desphilboy) has made this project into an
 [NPM](https://www.npmjs.com/) package to make it easier for web developers to
 use it in their projects. Now it can be installed and used like other
 dependencies: `install --save svg-cards`.

@@ -11,7 +11,7 @@
          be changed by setting the fill on the USE-element. -->
 
     <use xlink:href="svg-cards-indented.svg#back" x="150" y="10" fill="red"/>
-    <use xlink:href="svg-cards-indented.svg#1_heart" x="0" y="0"/>
-    <use xlink:href="svg-cards-indented.svg#black_joker" x="100" y="100"/>
-    <use xlink:href="svg-cards-indented.svg#10_spade" x="200" y="200" transform="rotate(45,198.0375,122.320)scale(0.5)"/>
+    <use xlink:href="svg-cards-indented.svg#heart_1" x="0" y="0"/>
+    <use xlink:href="svg-cards-indented.svg#joker_black" x="100" y="100"/>
+    <use xlink:href="svg-cards-indented.svg#spade_10" x="200" y="200" transform="rotate(45,198.0375,122.320)scale(0.5)"/>
 </svg>
