@@ -1,6 +1,6 @@
 {
   "name": "svg-cards",
-  "version": "4.0",
+  "version": "4.0.0",
   "description": "A set of playing cards in SVG (now also with a rendering in PNG and installable via NPM)",
   "main": "png",
   "scripts": {
