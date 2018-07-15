@@ -97,7 +97,7 @@ rendered swiftly in my web browsers. When rendering a deck of 52 cards facing
 down, it took almost 2 seconds to render about 50,000 elements in the DOM. To
 overcome these issues, I created an alternative back by removing all the
 frills from the original
-one. You can USE is via:
+one. You can USE it via:
 
 - *alternate-back*
 
