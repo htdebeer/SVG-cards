@@ -122,5 +122,5 @@ dependencies: `npm install --save svg-cards`. (Note. The svg-cards package on
 NPM is *not* maintained by me and can be out of date.)
 
 In July 2018, [Thomas Linard](https://github.com/thlinard) improved the SVG
-files by making them complient with the [SVG
+files by making them compliant with the [SVG
 specification](https://www.w3.org/TR/SVG/).
