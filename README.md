@@ -119,7 +119,7 @@ included as well.
 [NPM](https://www.npmjs.com/) package to make it easier for web developers to
 use it in their projects. Now it can be installed and used like other
 dependencies: `npm install --save svg-cards`. (Note. The svg-cards package on
-NPM is maintained by me and can be out of date.)
+NPM is *not* maintained by me and can be out of date.)
 
 In July 2018, [Thomas Linard](https://github.com/thlinard) improved the SVG
 files by making them complient with the [SVG
