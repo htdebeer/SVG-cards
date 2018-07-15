@@ -65,14 +65,14 @@ The naming of the cards is *not* kept as in the original (because of SVG standar
 
 Names are the following:
 
-joker_black joker_red
-back
-{club,diamond,heart,spade}_{king,queen,jack}
-{club,diamond,heart,spade}_{1,2,3,4,5,6,7,8,9,10}
+- joker_black and joker_red
+- back
+- {club,diamond,heart,spade}_{king,queen,jack}
+- {club,diamond,heart,spade}_{1,2,3,4,5,6,7,8,9,10}
 
 Examples:
-- the ace of club is club_1
-- the queen of diamond is diamond_queen
+- the ace of club is `club_1`
+- the queen of diamond is `diamond_queen`
 
 and so on…
 
@@ -118,7 +118,8 @@ included as well.
 [desphilboy](https://github.com/desphilboy) has made this project into an
 [NPM](https://www.npmjs.com/) package to make it easier for web developers to
 use it in their projects. Now it can be installed and used like other
-dependencies: `install --save svg-cards`.
+dependencies: `npm install --save svg-cards`. (Note. The svg-cards package on
+NPM is maintained by me and can be out of date.)
 
 In July 2018, [Thomas Linard](https://github.com/thlinard) improved the SVG
 files by making them complient with the [SVG
