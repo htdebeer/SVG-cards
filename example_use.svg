@@ -14,4 +14,5 @@
     <use xlink:href="svg-cards-indented.svg#heart_1" x="0" y="0"/>
     <use xlink:href="svg-cards-indented.svg#joker_black" x="100" y="100"/>
     <use xlink:href="svg-cards-indented.svg#spade_10" x="200" y="200" transform="rotate(45,198.0375,122.320)scale(0.5)"/>
+    <use xlink:href="svg-cards-indented.svg#club_jack" x="300" y="100" transform="rotate(75,198.0375,122.320)scale(0.75)"/>
 </svg>
