@@ -34,7 +34,7 @@ cards in SVG was not as straightforward as I would have liked. For example, I
 expected the following line,
 
 ```svg
-<use xlink:href="svg-cards.svg#red_joker" x="40" y="12"/>
+<use href="svg-cards.svg#joker_red" x="40" y="12"/>
 ```
 
 To put the red joker card with its top-left corner at (40, 12). It does not,
@@ -138,7 +138,7 @@ SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) to learn about SVG.
       USE-element. For example:
 
       ```svg
-      <use xlink:href="svg-cards-indented.svg#back" x="150" y="10" fill="red"/>
+      <use href="svg-cards.svg#back" x="150" y="10" fill="red"/>
       ```
     
     * The various cards have the following names:
