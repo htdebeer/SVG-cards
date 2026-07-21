@@ -1,6 +1,6 @@
 {
   "name": "svg-cards",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A set of playing cards in SVG (now also with a rendering in PNG and installable via NPM)",
   "main": "png",
   "scripts": {
@@ -16,24 +16,30 @@
     "cards",
     "web"
   ],
-  "contributors": [{
-          "name": "David Ballot",
-          "email": "david.bellot@gmail.com",
-          "url": "http://david.bellot.free.fr/"
-      }, {
-        "name": "Huub de Beer",
-        "email": "Huub@heerdebeer.org",
-        "url": "https://heerdebeer.org"
-      }, {
-        "name": "desphilboy",
-        "url": "https://github.com/desphilboy"
-      }, {
+  "contributors": [
+    {
+      "name": "David Ballot",
+      "email": "david.bellot@gmail.com",
+      "url": "http://david.bellot.free.fr/"
+    },
+    {
+      "name": "Huub de Beer",
+      "email": "Huub@heerdebeer.org",
+      "url": "https://heerdebeer.org"
+    },
+    {
+      "name": "desphilboy",
+      "url": "https://github.com/desphilboy"
+    },
+    {
       "name": "Thomas Linard",
       "url": "https://github.com/thlinard"
-      }, {
+    },
+    {
       "name": "rhorns",
       "url": "https://github.com/rhorns"
-      }],
+    }
+  ],
   "license": "LGPL-2.1",
   "bugs": {
     "url": "https://github.com/htdebeer/SVG-cards/issues"
