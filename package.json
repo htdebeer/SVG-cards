@@ -1,6 +1,6 @@
 {
   "name": "svg-cards",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A set of playing cards in SVG (now also with a rendering in PNG and installable via NPM)",
   "main": "png",
   "scripts": {
@@ -30,6 +30,9 @@
       }, {
       "name": "Thomas Linard",
       "url": "https://github.com/thlinard"
+      }, {
+      "name": "rhorns",
+      "url": "https://github.com/rhorns"
       }],
   "license": "LGPL-2.1",
   "bugs": {

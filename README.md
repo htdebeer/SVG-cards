@@ -231,3 +231,8 @@ npm install --save svg-cards
 In July 2018, [Thomas Linard](https://github.com/thlinard) improved the SVG
 files by making them compliant with the [SVG
 specification](https://www.w3.org/TR/SVG/).
+
+### Fixes
+
+- In July 2026, [rhorns](https://github.com/rhorns) fixed a white line in the
+  diamond shape.
